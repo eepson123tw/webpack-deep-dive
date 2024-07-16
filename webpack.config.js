@@ -21,6 +21,10 @@ module.exports = {
         // },
         // },
       },
+      {
+        test: /\.js$/,
+        use: ["./loaders/loader3.js", "./loaders/loader4.js"],
+      },
     ],
   },
 };
