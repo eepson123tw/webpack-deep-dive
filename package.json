@@ -4,16 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dll": "webpack --config webpack.dll.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "~9.7.0",
+    "globals": "^15.8.0",
     "webpack": "^5.93.0",
+    "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "loader-utils": "^3.3.1"
+    "jquery": "^3.7.1",
+    "loader-utils": "^3.3.1",
+    "lodash-es": "^4.17.21"
   }
 }

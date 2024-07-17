@@ -8,7 +8,7 @@ module.exports = function (source) {
         resourcePath,
         resourceQuery,
       });
-      return "js/[hash].script.[ext]";
+      return "js/[contenthash].script.[ext]";
     })
   );
   return source;
